@@ -1,5 +1,5 @@
 type = module
-name = Tinymce Emojis
+name = TinyMCE Emojis
 description = TinyMCE button and autocompleter to insert emojis to content.
 backdrop = 1.x
 
