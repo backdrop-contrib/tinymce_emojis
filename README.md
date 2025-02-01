@@ -6,8 +6,12 @@ content.
 The button opens a dialog where you can browse through several categories or
 search by (English) names.
 
+![Screenshot of the open dialog](https://raw.githubusercontent.com/backdrop-contrib/tinymce_emojis/1.x-1.x/screenshots/emojis-dialog.png)
+
 Additonally, if you write a colon followed by some characters in content, the
 emoji library will also be parsed to provide suggestions to pick from.
+
+![Autocomplete when typing](https://raw.githubusercontent.com/backdrop-contrib/tinymce_emojis/1.x-1.x/screenshots/emoji-autocomplete.png)
 
 Important note: your database has to be able to deal with emojis (utf8mb4),
 which is usally the case, but might not in some edge cases.
