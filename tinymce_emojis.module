@@ -1,0 +1,24 @@
+<?php
+/**
+ * @file
+ * Exposes TinyMCE's built in emoticons plugin to the profile builder.
+ */
+
+/**
+ * Implements hook_tinymce_external_plugins().
+ */
+function tinymce_emojis_tinymce_external_plugins($format) {
+  $tiny_path = backdrop_get_path('module', 'tinymce');
+  $plugins = array(
+    'emoticons' => array(
+      'plugin_path' => base_path() . $tiny_path . '/libraries/tinymce/js/tinymce/plugins/emoticons/plugin.min.js',
+      'buttons' => array(
+        'emoticons' => array(
+          'icon' => 'emoji',
+          'tootip' => t('Emojis'),
+        ),
+      ),
+    ),
+  );
+  return $plugins;
+}
