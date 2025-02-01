@@ -13,9 +13,6 @@ emoji library will provide suggestions to pick from in a popup collection.
 
 ![Autocomplete when typing](https://raw.githubusercontent.com/backdrop-contrib/tinymce_emojis/1.x-1.x/screenshots/emoji-autocomplete.png)
 
-Important note: your database has to be able to deal with emojis (utf8mb4),
-which is usally the case, but might not in some edge cases.
-
 ## Installation
 
 - Install this module using the official [Backdrop CMS instructions](https://docs.backdropcms.org/documentation/extend-with-modules)
@@ -24,6 +21,9 @@ which is usally the case, but might not in some edge cases.
 ## Dependencies
 
 - TinyMCE
+
+Important note: your database has to be able to deal with emojis (utf8mb4),
+which is usally the case, but might not in some edge cases.
 
 ## Issues
 
