@@ -1,7 +1,7 @@
 # TinyMCE Emojis
 
-Provides an editor button to insert emojis (also known as emoticons) into
-content.
+Provides an editor button to insert emojis (sometimes also denoted as emoticons)
+into content.
 
 The button opens a dialog where you can browse through several categories or
 search by (English) keywords.
@@ -22,8 +22,8 @@ emoji library will provide suggestions to pick from in a popup collection.
 
 - TinyMCE
 
-Important note: your database has to be able to deal with emojis (utf8mb4),
-which is usally the case, but might not in some edge cases.
+Note that your database has to be able to deal with emojis (utf8mb4
+character set), which is usally the case, but might not in some edge cases.
 
 ## Issues
 
