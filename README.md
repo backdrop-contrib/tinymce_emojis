@@ -1,5 +1,9 @@
 # TinyMCE Emojis
 
+**OBSOLETE❗** Emoji support is provided by parent module.
+
+---
+
 Provides an editor button to insert emojis (sometimes also denoted as emoticons)
 into content.
 
